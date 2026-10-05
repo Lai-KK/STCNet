@@ -1,0 +1,44 @@
+ape: false
+depths:
+- 2
+- 2
+- 4
+- 2
+drop_path_rate: 0.3
+drop_rate: 0.2
+#drop_rate: 0.5
+embed_dim: 96
+#embed_dim: 60
+#embed_dim: 48
+if_convskip: true
+if_transskip: true
+img_size:
+- 256
+- 256
+- 256
+#in_chans: 2
+in_chans: 32
+mlp_ratio: 4
+num_heads:
+- 4
+- 4
+- 8
+- 8
+out_indices:
+- 0
+- 1
+- 2
+- 3
+pat_merg_rf: 4
+patch_norm: true
+patch_size: 4
+pos_embed_method: relative
+qkv_bias: false
+reg_head_chan: 16
+rpe: true
+spe: false
+use_checkpoint: false
+window_size:
+- 5
+- 6
+- 7
